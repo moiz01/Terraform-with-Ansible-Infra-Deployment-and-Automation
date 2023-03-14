@@ -51,13 +51,13 @@ sudo apt update && sudo apt install terraform
  method 1: 
   terraform plan 
  method 2:
- terraform plan -var AWS_ACCESS_KEY="AKIAS6HD3C5BMSUA4L52" -var AWS_SECRET_KEY=""
+ terraform plan -var AWS_ACCESS_KEY="AKIAS6HD3C5BMSUA4L52" -var AWS_SECRET_KEY="";
  method 3:
  vim terraform.tfvariables
- AWS_ACCESS_KEY=""
- AWS_SECRET_KEY=""
+ AWS_ACCESS_KEY="";
+ AWS_SECRET_KEY="";
  
 
-terraform plan -var AWS_ACCESS_KEY="AKIAS6HD3C5BMSUA4L52" -var AWS_SECRET_KEY="" -var AWS_REGION="us-west-2"
+terraform plan -var AWS_ACCESS_KEY="AKIAS6HD3C5BMSUA4L52" -var AWS_SECRET_KEY="" -var AWS_REGION="us-west-2";
  
  
